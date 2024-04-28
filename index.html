@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"> -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="icon" type="image/jpg" href="./img/icon.jpg">
+  <script src="index.js"></script>
+</head>
+<body>
+  <header>
+    <a href="" class="logo-holder">
+      <div class="logo"><img src="./img/logo.png" alt="" width="25px"></div>
+      <div class="logo-text">POrtfolio Website</div>
+    </a>
+    <nav>
+      <ul id="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="mailto:sachingusain740@gmail.com" class="button">Contact me</a>
+        </li>
+      </ul>
+      <a href="#" class="mobile-toggle" onclick="toggleMobileMenu()">
+        <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M10.83 5a3.001 3.001 0 0 0-5.66 0H4a1 1 0 1 0 0 2h1.17a3.001 3.001 0 0 0 5.66 0H20a1 1 0 1 0 0-2h-9.17ZM4 11h9.17a3.001 3.001 0 0 1 5.66 0H20a1 1 0 1 1 0 2h-1.17a3.001 3.001 0 0 1-5.66 0H4a1 1 0 1 1 0-2Zm1.17 6H4a1 1 0 1 0 0 2h1.17a3.001 3.001 0 0 0 5.66 0H20a1 1 0 1 0 0-2h-9.17a3.001 3.001 0 0 0-5.66 0Z"/>
+        </svg>        
+      </a>
+    </nav>
+  </header>
+<section class="hero container">
+  <div class="hero-blue">
+    <div>
+      <h1><small>Hi, I'm</small>
+      Sachin Singh</h1>
+      <p>Beginner in Full stack Development.
+        And I am currently pursuing my Bachelore 
+        degree in Computer Science.
+      </p>
+      <div class="call-to-action">
+        <a href="./Sachin resume.pdf" class="button black">
+          View Resume
+        </a>
+        <a href="mailto:sachingusain740@gmail.com" class="button white">
+          Contact Me
+        </a>
+      </div>
+      <div class="social-links">
+<a href="">
+  <img src="./img/github.png" alt="" width="48">
+</a>
+<a href="">
+  <img src="./img/linkedin.png" alt="" width="48">
+</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-yellow">
+    <img  class="profile" src="./img/icon.jpg" alt="Sachin" width="100%">
+  </div>
+</section>
+
+<section class="container logos">
+  <div class="marquee">
+    <div class="track">
+      <img src="./img/html.png" alt="html" width="128">
+      <img src="./img/css.png" alt="css" width="128">
+      <img src="./img/javascript.png" alt="js" width="128">
+      <img src="./img/react.png" alt="react" width="128">
+      <img src="./img/vscode.png" alt="vscode" width="128">
+      <img src="./img/node2.png" alt="nodejs" width="128">
+      <img src="./img/express2.png" alt="expressjs" width="128">
+      <img src="./img/git2.png" alt="git" width="128">
+      <img src="./img/mongodb2.png" alt="mongodb" width="128">
+      <img src="./img/postgres2.png" alt="postgres" width="128">
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills container">
+  <h2><small>About Me</small>Skills</h2>
+  <div class="holder-blue">
+    <div class="left-column">
+      <h3>FrontEnd</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+        <li>React JS</li>
+      </ul>
+      <h3>BackEnd</h3>
+      <ul>
+        <li>Node JS</li>
+        <li>Express</li>
+        <li>PHP</li>
+    </div>
+    <div class="right-column">
+      <h3>A bit more about me</h3>
+      <p>Hi, I am Sachin, Beginner in Full stack 
+        Development. And I am currently 
+        pursuing my Bachelore degree in Computer 
+        Science.
+      Nut I am also interested in AI and Python, 
+      cause i learned pretty basic back then.</p>
+      <p>
+        I am currently looking for a job in 
+        Full stack Development. and just want to 
+        build good and useful stuff that really matters. 
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="work-experience container">
+  <h2>
+    <small>Recent</small>
+    Work Experience
+  </h2>
+  <div class="jobs">
+    <article>
+      <figure>
+        <div>
+          <img src="./img/workspace.jpg" alt="" width="100%">
+          <figcaption>Workplace - 1</figcaption>
+        </div>
+      </figure>
+      <h3>Workplace - 1</h3>
+      <div>2017-2020</div>
+      <p>This is an Example
+        Description for  a workplace.
+      </p>
+    </article>
+    <article>
+      <figure>
+        <div>
+          <img src="./img/workspace2.jpg" alt="workspace" width="100%">
+          <figcaption>Workplace - 2</figcaption>
+        </div>
+      </figure>
+      <h3>Workplace - 2 </h3>
+      <div>2020-2022</div>
+      <p>This is an Example
+        Description for  a workplace.
+      </p>
+    </article>
+    <article>
+      <figure>
+        <div>
+          <img src="./img/workspace3.jpg" alt="" width="100%">
+          <figcaption>Workplace - 3</figcaption>
+        </div>
+      </figure>
+      <h3>Workplace - 3</h3>
+      <div>2022-2024</div>
+      <p>This is an Example
+        Description for  a workplace.
+      </p>
+    </article>
+  </div>
+</section>
+
+
+<section id="projects" class="bento">
+  <h2>
+    <small>Previous</small>
+    Completed Projects
+  </h2>
+  <div class="bento-grid">
+    <div class="bento-item">
+     <a href="#"> <img src="./img/project1.jpg" alt="" width="100%"></a>
+    </div>
+    <div class="bento-item">
+      <a href="#"><img src="./img/project2.jpg" alt="" width="100%"></a>
+    </div>
+    <div class="bento-item">
+      <a href="#"><img src="./img/project3.jpg" alt="" width="100%">
+      </a>
+    </div>
+    <div class="bento-item">
+      <a href="#"><img src="./img/project4.jpg" alt="" width="100%"></a>
+    </div>
+    <div class="bento-item">
+      <a href="#"><img src="./img/project5.jpg" alt="" width="100%"></a>
+    </div>
+    <div class="bento-item">
+      <a href="#"><img src="./img/project6.jpg" alt="" width="100%"></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="copyright">Sachin Singh © 2024</div>
+  <div class="social-media">
+    <ul>
+      <li><i class="fa-regular fa-envelope"></i></li>
+      <li><i class="fa-brands fa-linkedin"></i></li>
+      <li><i class="fa-brands fa-github"></i></li>
+      <li><i class="fa-brands fa-instagram"></i></li>
+    </ul>
+    
+  </div>
+</footer>
+</body>
+</html>
